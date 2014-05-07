@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif;
+}
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+.fleft {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.fright {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;	
+}
+#tudo {
+	width: 960px;
+	margin: 0 auto;
+}
+#topo {
+	height: 300px;
+	background-image: url(http://www.digitalic.it/wp/wp-content/uploads/2013/06/jade.jpg);
+	background-size: 100% auto;
+}
+#menu {
+	background: #000;
+}
+#menu a {
+	color: #FFF;
+	padding: 10px 15px;
+	display: block;
+	background: #666;
+}
+#menu a:hover, #menu a.ativo {
+	background: #333;
+}
+#menu li {
+	float: left;
+}
